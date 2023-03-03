@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/student/Desktop/Tema 3'
+gcc -o client client.c requests.c helpers.c buffer.c parson.c -Wall -g
+make: Leaving directory '/home/student/Desktop/Tema 3'
+ 
